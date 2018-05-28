@@ -11,7 +11,7 @@ https://www.zhihu.com/question/20215561/answer/40316953
 // 定时器
 this.heartCheck();  
 
-难点在于需求是两分钟刷新一次，以及权限认证问题，服务器会在两分钟内无数据传输就会默认关闭websocket连接，故需要实现心跳机制。关于权限认证，这里实现比较简单，还是觉得不够好，可以用socket.io 组件，或者参考https://facundoolano.wordpress.com/2014/10/11/better-authentication-for-socket-io-no-query-strings/解决加密问题。
+难点在于需求是两分钟刷新一次，以及权限认证问题，服务器会在两分钟内无数据传输就会默认关闭websocket连接，故需要实现心跳机制。关于权限认证，这里实现比较简单，还是觉得不够好，可以用socket.io 组件，或者参考https://facundoolano.wordpress.com/2014/10/11/better-authentication-for-socket-io-no-query-strings/ 解决加密问题。
 
 ```javascript
 createWebSocket = (groupId) => {
