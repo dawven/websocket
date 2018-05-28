@@ -5,7 +5,7 @@
 WebSocket 是什么原理？为什么可以实现持久连接？ - Ovear的回答 - 知乎
 https://www.zhihu.com/question/20215561/answer/40316953
 
-项目的代码 react 版，可以看此[页面完整版]()
+项目的代码 react 版，可以看此[页面完整版](https://github.com/dawven/websocket/blob/master/spKanban.js)
 
 在 componentDidMount 把定时器生效  
 // 定时器
